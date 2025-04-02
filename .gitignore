@@ -1,0 +1,57 @@
+# ========== Python 관련 ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 가상 환경
+venv/
+ENV/
+env/
+.venv/
+pip-wheel-metadata/
+
+# 환경 변수/시크릿
+*.env
+.env.*
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# ========== PyCharm 설정 관련 ==========
+.idea/
+*.iml
+
+# ========== OS별 임시 파일 ==========
+.DS_Store          # macOS
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# ========== 로그/결과/캐시 ==========
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
+
+# ========== 모델/데이터 관련 ==========
+/data/
+*.h5
+*.pt
+*.pth
+*.tflite
+*.onnx
+*.ckpt
+*.joblib
+*.npz
+*.npy
+
+# ========== 빌드 관련 (파이썬 패키지 프로젝트용) ==========
+build/
+dist/
+*.egg-info/
+
+# ========== VS Code 쓴다면 (추가로) ==========
+.vscode/
